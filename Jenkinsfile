@@ -25,3 +25,5 @@ pipeline {
       }
   }
 }
+// pm2 not found issue
+// https://www.linkedin.com/pulse/how-solve-npm-pm2-command-found-jenkins-/?trackingId=mem1Rw7pSUS8GvGxB481Eg%3D%3D
