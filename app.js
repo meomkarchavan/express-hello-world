@@ -54,7 +54,7 @@ const html = `
   </head>
   <body>
     <section>
-      Updated the page!
+      Hello from Pm2 Jenkins!
     </section>
   </body>
 </html>

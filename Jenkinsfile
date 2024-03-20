@@ -20,6 +20,7 @@ pipeline {
   stage('Deploy') {
           steps {
               sh 'pm2 start ecosystem.config.cjs --env production'
+              sh 'pm2 save'
               // sh 'pm2 restart all' //https://medium.com/@suyog.nepal10/pm2-with-jenkins-b2e83bab9771
           }
       }
